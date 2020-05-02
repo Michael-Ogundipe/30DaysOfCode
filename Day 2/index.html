@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Survey Form</title>
+		<link href="https://fonts.googleapis.com/css?family=Merriweather:400,700&display=swap" rel="stylesheet">
+		<link rel="shortcut icon" href="img/favicon.png">
+		<link rel="stylesheet" href="css/jquery.bxslider.css">
+		
+
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/all.min.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	
+	<body>
+	
+		<div id="header_area">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<div class="social_area">
+							<ul>
+								<li><a href=""><i class="fab fa-linkedin"></i></a></li>
+								<li><a href=""><i class="fab fa-twitter"></i></a></li>
+								<li><a href=""><i class="fab fa-pinterest"></i></a></li>
+								<li><a href=""><i class="fab fa-google-plus"></i></a></li>
+								<li><a href=""><i class="fas fa-wifi"></i></a></li>
+							</ul>
+						</div>
+						<div class="logo">
+							<a href=""><img src="img/logo.png" alt="" /></a>
+						</div>
+					</div>
+					<div class="col-md-9">
+						<div class="search_area">
+							<form action="">
+								<input type="text" placeholder="Search Our Website...">
+								<input type="submit" value="Search">
+							</form>
+						</div>
+						<div id="main_menu">
+							<ul>
+								<li><a href="">HOME</a></li>
+								<li><a href="">STYLE DEMO</a></li>
+								<li><a href="">FULL WIDTH</a></li>
+								<li><a href="">DROPDOWN</a></li>
+								<li><a href="">PORTFOLIO</a></li>
+								<li><a href="">GALLERY</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+        </div>
+        
+        <div id="survey_area">
+            <div class="container">
+                <div class="survey_text">My Pratice Survey Form</div> 
+                <p>Hello and Welcome. Help Me know how I can improve my coding skiils</p>
+
+                <form>
+                    <label for="name">Name</label> <input type="text" name="name" placeholder="Enter your Name" />
+                    <br />
+                    <label for="email">Email</label> <input type="email" name="email" placeholder="Enter your Email" />
+                    <br />
+                    <label for="age">Age</label> <input type="number" id="age" name="age" min="18" max="30" />
+                    <br />
+                    <label for="text">What is the best time of the day to write code? :</label> 
+                    <input type="radio" name="day" value="morning" /> Morning
+                    <br />
+                    <input type="radio" name="day" value="morning" /> Afternoon
+                    <br />
+                    <input type="radio" name="day" value="morning" /> Mid- Night
+                    <br />
+
+                    <label for="text">What do you think I need to change to make my codes better(check all that apply) :</label> 
+                    <input type="checkbox" name="day" value="morning" /> Improve Commenting
+                    <br />
+                    <input type="checkbox" name="day" value="morning" /> Learn more CSS
+                    <br />
+                    <input type="checkbox" name="day" value="morning" /> Go for more workshop & programs<br />
+                </form>
+            </div>
+            
+        </div>
+	
+	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"> </script>
+	</body>
+</html>  

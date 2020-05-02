@@ -1,0 +1,52 @@
+/* Common Style*/
+body{font-family: 'Merriweather', serif; font-size: 15px; font-weight: 400; line-height: 1.6em;}
+p{font-weight: 400; margin-bottom: 15px;}
+h3{font-weight: 700; margin-bottom: 15px}
+a{transition: 0.5s}
+input[type="submit"]{cursor: pointer; transition: 0.5s} 
+ a.readmore {background: #3bafbe none repeat scroll 0 0;   border-radius: 25px; color: #fff; display: inline-block; 			padding: 10px 20px; text-decoration: none;}
+
+a.readmore:hover{ background: #262626 none repeat scroll 0 0;}
+
+/*Header Area Style*/
+#header_area{border-top: 5px solid #3bafbe; border-bottom: 1px solid #ddd; padding: 20px 0}
+.social_area{width: 100%; clear: both;margin-bottom: 20px}
+.social_area ul{margin: 0; padding: 0; list-style: none;}
+.social_area ul li{display: inline-block; margin-right: 5px;}
+.social_area ul li a{background: #1f1f1f; width: 35px; height: 35px; color: #fff; display: block; 
+text-align: center; padding-top: 5px; border-radius: 50%; transition: 0.5s}
+.social_area ul li a:hover{background: #ee802f;}
+
+/*Search Area Style*/
+.search_area{text-align: right; width: 100%; clear: both; margin-bottom: 20px}
+.search_area input{background: #333333; color: #fff; border: 0px solid; padding: 10px; border-radius: 5px}
+.search_area input[type="submit"]{background: #3bafbe; cursor: pointer; transition: 0.5s}
+.search_area input[type="submit"]:hover{background: #ee802f; }
+
+/* Main Menu Style*/
+#main_menu{text-align: right;}
+#main_menu ul{margin: 0; padding:0; list-style: none;}
+#main_menu ul li{display: inline-block;}
+#main_menu ul li a{display: block; font-size: 14px; color:#999999; text-transform: uppercase; text-decoration: none; padding: 5px 15px;}
+#main_menu ul li a:hover{color: #3bafbe;}
+
+/*Banner Style */
+#banner_area{width: 100%; overflow: hidden; position: relative;}
+#banner_area .item{width: 100%; overflow: hidden;}
+#banner_area .item img{width: 50%; height: 500px;}
+
+.banner_text{height: 100%; left: 0; position: absolute; top:0; width: 100%; }
+.banner_table{display: table; height: 100%; width: 100%;}
+.banner_align{display: table-cell; height: 100%; vertical-align: middle; width: 100%;} 
+.banner_textarea{margin: 0 auto; width: 1170px;}
+.main_banner{ float: right; width: 50%;}
+
+
+/* Responsive Style*/
+@media only screen and (min-width:200px) and (max-width: 768px) {
+    
+    .social_area ul{text-align:center;}
+    /*#header_area .col-md-9{display: none;} */
+        .banner_textarea {width: 90%;}
+    .main_banner{width: 80%;}
+}
