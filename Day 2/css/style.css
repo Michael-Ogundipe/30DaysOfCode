@@ -31,7 +31,8 @@ text-align: center; padding-top: 5px; border-radius: 50%; transition: 0.5s}
 #main_menu ul li a:hover{color: #3bafbe;}
 
 /*Survey Area Style*/
-.survey_text{text-align: center; font-size: 45px; padding: 10px;}
+.survey_text{text-align: center; font-size: 45px; padding: 20px;}
+.welcome {font-size: 25px;}
 .survey_form{text-align: center;}
 .survey_form input{background: #fff; color: #000000;  border: 1px solid; padding: 7px; border-radius: 7px}
 
@@ -40,7 +41,8 @@ text-align: center; padding-top: 5px; border-radius: 50%; transition: 0.5s}
 @media only screen and (min-width:200px) and (max-width: 768px) {
     
     .social_area ul{text-align:center;}
-    /*#header_area .col-md-9{display: none;} */
-        .banner_textarea {width: 90%;}
+    .banner_textarea {width: 90%;}
     .main_banner{width: 80%;}
+    .survey_text{text-align: center; font-size: 25px; padding: 10px;}
+    .welcome {font-size: 15px;}
 }
