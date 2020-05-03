@@ -58,29 +58,55 @@
         <div id="survey_area">
             <div class="container">
                 <div class="survey_text">My Pratice Survey Form</div> 
-                <p>Hello and Welcome. Help Me know how I can improve my coding skiils</p>
+                <p><h2>Hello, Welcome to mie site! Help Me know how I can improve my coding skiils</h2></p>
 
-                <form>
-                    <label for="name">Name</label> <input type="text" name="name" placeholder="Enter your Name" />
-                    <br />
-                    <label for="email">Email</label> <input type="email" name="email" placeholder="Enter your Email" />
-                    <br />
-                    <label for="age">Age</label> <input type="number" id="age" name="age" min="18" max="30" />
-                    <br />
-                    <label for="text">What is the best time of the day to write code? :</label> 
-                    <input type="radio" name="day" value="morning" /> Morning
-                    <br />
-                    <input type="radio" name="day" value="morning" /> Afternoon
-                    <br />
-                    <input type="radio" name="day" value="morning" /> Mid- Night
+                <form class="survey_form">
+                    <label for="name">Name :</label> <input type="text" name="name" placeholder="Enter your Name" />
+                    <br /> <br />
+                    <label for="email">Email :</label> <input type="email" name="email" placeholder="Enter your Email" />
+                    <br /> <br />
+                    <label for="email">Password :</label> <input type="password" name="password" placeholder="Enter Password" />
+                    <br /> <br />
+                    <label for="age">Age :</label> <input type="number" id="age" placeholder="Age"  name="age" min="18" max="30" />
+                    <br /> <br />
+                    <label for="text" ><h5> What is the best time of the day to write code? </h5></label>   
+                    <select id="myLis">
+                        <option value="1">Morning</option>
+                        <option value="1">Afternoon</option>
+                        <option value="2">Night </option>
+                        
+                    </select>
+
+                    
                     <br />
 
-                    <label for="text">What do you think I need to change to make my codes better(check all that apply) :</label> 
-                    <input type="checkbox" name="day" value="morning" /> Improve Commenting
+                    <label for="text"><h5>What day of the week should I write code? (check all that apply) : </h5></label>
+                    
+                   
+                    <input type="checkbox" name="day" value="morning" /> Monday
+                    
+                    <input type="checkbox" name="day" value="morning" /> Tuesday
+                    
+                    <input type="checkbox" name="day" value="morning" /> Wednesday
+                    
+                    <input type="checkbox" name="day" value="morning" /> Thurday
+                   
+                    <input type="checkbox" name="day" value="morning" /> Friday
+                    
+                    <input type="checkbox" name="day" value="morning" /> Saturday
+                    
+                    <input type="checkbox" name="day" value="morning" /> Sunday
                     <br />
-                    <input type="checkbox" name="day" value="morning" /> Learn more CSS
+                    
+
+                    <label for="text"><h5>What do you think I need to change to make my codes better :</h5></label> 
                     <br />
-                    <input type="checkbox" name="day" value="morning" /> Go for more workshop & programs<br />
+                    <input type="radio" name="day" value="morning" /> Improve Commenting
+                    
+                    <input type="radio" name="day" value="morning" /> Learn more CSS
+                   
+                    <input type="radio" name="day" value="morning" /> Go for more workshop & programs<br />
+                    
                 </form>
             </div>
             
