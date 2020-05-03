@@ -30,7 +30,7 @@ text-align: center; padding-top: 5px; border-radius: 50%; transition: 0.5s}
 #main_menu ul li a{display: block; font-size: 14px; color:#999999; text-transform: uppercase; text-decoration: none; padding: 5px 15px;}
 #main_menu ul li a:hover{color: #3bafbe;}
 
-.survey_text{ font-size: 40px; }
+
 
 /*Banner Style */
 #banner_area{width: 100%; overflow: hidden; position: relative;}
