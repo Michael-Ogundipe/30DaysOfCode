@@ -1,0 +1,58 @@
+/* Common Style*/
+body{font-family: 'Merriweather', serif; font-size: 14px; font-weight: 400; line-height: 1.6em;}
+a{cursor: pointer; transition: 0.5s }
+input{cursor: pointer; transition: 0.5s} 
+.logo{font-size: 30px;}
+/*Header Area Style*/
+#header_area{border-top: 5px solid #3bafbe; border-bottom: 1px solid #ddd; padding: 20px 0}
+.social_area{width: 100%; clear: both;margin-bottom: 20px}
+.social_area ul{margin: 0; padding: 0; list-style: none;}
+.social_area ul li{display: inline-block; margin-right: 5px;}
+.social_area ul li a{background: #1f1f1f; width: 35px; height: 35px; color: #fff; display: block; 
+text-align: center; padding-top: 5px; border-radius: 50%; transition: 0.5s}
+.social_area ul li a:hover{background: #ee802f;}
+
+/*Search Area Style*/
+.search_area{text-align: right; width: 100%; clear: both; margin-bottom: 20px}
+.search_area input{background: #333333; color: #fff; border: 0px solid; padding: 10px; border-radius: 5px}
+.search_area input[type="submit"]{background: #3bafbe; cursor: pointer; transition: 0.5s}
+.search_area input[type="submit"]:hover{background: #ee802f; }
+
+/* Main Menu Style*/
+#main_menu{text-align: right;}
+#main_menu ul{margin: 0; padding:0; list-style: none;}
+#main_menu ul li{display: inline-block;}
+#main_menu ul li a{display: block; font-size: 14px; color:#999999; text-transform: uppercase; text-decoration: none; padding: 5px 15px;}
+#main_menu ul li a:hover{color: #3bafbe;}
+
+
+/* Login Header Style*/
+.img_class{float: left;}
+.login_area{text-align: center;}
+.login_header{font-size: x-large; padding-top:15px ;}
+.login_area input { width: 350px; border-radius: 5px; padding: 7px; }
+.login_area input[type="email"]{ border-color: #3176a5;}
+.forgot_password{padding: 10px;}
+.login_area input[type="submit"]{background: #3bafbe;}
+.login_area input[type="submit"]:hover{background: #ee802f; }
+
+
+
+/* Style to write a text in between line*/
+h6{padding-top: 10px; width: 100%; text-align: center; border-bottom: 1px solid #000; line-height: 0.1em; margin: 10px 0 20px;}
+h6 span { background: #fff; padding: 0 10px;}
+
+/* Sign up Icon Style */
+.social_areaa ul{margin: 0; padding: 0; list-style: none;}
+.social_areaa ul li{display: inline-block; margin-right: 5px;}
+.social_areaa ul li a{background: #3bafbe; width: 30px; height: 30px; color: #fff; display: block; 
+text-align: center; padding-top: 5px; border-radius: 50%; transition: 0.5s}
+.social_areaa ul li a:hover{background: #ee802f;}
+
+.sign_in{padding-bottom: 7px;}
+
+/* Responsiveness Style */
+@media only screen and (min-width:200px) and (max-width: 768px) {
+    .item img{display: none;}
+    
+ }
