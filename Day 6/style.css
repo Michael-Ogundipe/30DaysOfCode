@@ -40,6 +40,6 @@ input{cursor: pointer; transition: 0.5s;}
 
   .search_button{display: none;}
   .offered_lang{text-align: center;}
-  
+  .main_items p {text-align: center;}
   }
 
