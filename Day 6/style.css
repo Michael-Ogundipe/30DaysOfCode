@@ -38,6 +38,7 @@ input{cursor: pointer; transition: 0.5s;}
   
   .main_items input[type="search"]{width: 250px; border: 2px solid #d3d3d3;  border-radius: 15px; padding: 7px;}
   .main_items input[type="button"]{display: none;}
+  .search_button{display: none;}
   
   }
 
