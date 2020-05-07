@@ -35,3 +35,12 @@ input{cursor: pointer; transition: 0.5s;}
 .ul2_class{float: right;}
 
 
+/* Responsiveness Style */
+@media only screen and (min-width:200px) and (max-width: 768px) {
+  
+  
+  .main_items input[type="search"]{width: 250px; border: 2px solid #d3d3d3;  border-radius: 15px; padding: 7px;}
+
+  
+  }
+
