@@ -1,0 +1,40 @@
+a:link{text-decoration: none;}
+ul li {list-style-type: none; display:inline-block; }
+a{cursor: pointer; transition: 0.5s;}
+
+#body-color{background: #607d8b;}
+
+/* Header Style Area */
+header div {font-size: 25px; margin-left: 15px ;}
+header p {font-size: 25px; margin-right: 15px; float: right;}
+
+
+/* Nav Style Area */
+.list-group li {margin:20px;}
+
+/* First Section Style Area */
+.first-section{text-align: center;  padding-top: : 0px; padding-bottom: 30px}
+.first-section h1 {color: #004d40; }
+.first-section button{padding: 10px; background: #607d8b; border: 1px solid; color: #fff; border-radius: 3px; }
+
+/* Article Style Area */
+#wrapper{ display: table; width: 700px; padding-top: 30px; padding-bottom: 20px;}
+#article-row{display: table-row;}
+.article1{display: table-cell; width: 200px;}
+.article2{display: table-cell; width: 300px;}
+.article3{display: table-cell; width: 200px;}
+
+#wrapper{border-spacing: 10px; border-collapse: separate;}
+
+
+
+/* Footer Style Area  */
+footer{height: 150px; background: #607d8b; color: #004d40; padding-top: 20px}
+.copy{margin: 20px}
+.footer_link{float: right;  }
+
+
+/* Responsiveness Style */
+@media only screen and (min-width: 200px) and (max-width: 768px){
+	.img_class{display: block; margin-left: auto;margin-right: }
+}
