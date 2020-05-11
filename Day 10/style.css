@@ -18,13 +18,16 @@ section{clear: both; height: 400px; text-align: center; padding-top: 150px; back
 /* Article Style Area */
 article{background: #0f1136;  color: #fff; font-size: x-large; padding-bottom: 30px;}
 .title{text-align: center; padding: 25px; text-decoration: underline;}
-#wrapper{ display: table; width: 700px; border-spacing: 10px; border-collapse: separate;}
+/*#wrapper{ display: table; width: 700px; border-spacing: 10px; border-collapse: separate;}
 #row{display: table-row;}
 .article1{display: table-cell; width: 350px;}
-.article2{display: table-cell; width: 350px;}
+.article2{display: table-cell; width: 350px;} */
 
+#row{display: flex; justify-content: center; flex-flow: row nowrap; } 
+.article1, .article2 {flex: 0 0 50%;}
 
-.img-label{height: 40px; width: 600px; background: #332f2f; text-align: center; padding-top: 20px;}
+img{max-width: 100%; height: auto;}
+.img-label{height: 40px; width: 600px; background: #332f2f; text-align: center; padding-top: 20px; margin: 5px 0;}
 article button{ padding: 8px;}
 .article-button{text-align: center;}
 
@@ -35,13 +38,13 @@ article button{ padding: 8px;}
 
 /* Footer Style Area */
 footer {height: 50px;background: #332f2f; border-top: 4px red solid; padding-top: 20px; color: #fff; }
-.copy-right{text-align: right;}
+.copy-right{float: right;}
 
 @media only screen and (min-width:200px) and (max-width: 768px) {
     
 
   #row {
-    flex-flow: column nowrap;
+    flex-flow: column nowrap; 
   }
   .img-label{height: 40px; width: 300px; background: #332f2f; text-align: center; padding-top: 20px;}
  .article1, .article2{
