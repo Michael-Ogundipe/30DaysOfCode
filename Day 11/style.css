@@ -1,0 +1,40 @@
+/* .slicknav_menu{display: inline-block;} */
+
+ul {list-style: none;}
+a{text-decoration: none; color: #fff;}
+
+header{height: 50px; }
+header ul li {display: inline-block;}
+header h2 {float: left; }
+header ul{float: right;}
+
+/* Nav Style Area */
+nav{clear: both; height: 50px; background: red; text-align: right; }
+nav ul li {display: inline-block; padding: 15px;}
+
+/* Section Style Area */
+section{clear: both; height: 400px; text-align: center; padding-top: 150px; background: #332f2f;}
+
+/* Article Style Area */
+article{background: #0f1136;  color: #fff; font-size: x-large; padding-bottom: 30px;}
+.title{text-align: center; padding: 25px; text-decoration: underline;}
+#wrapper{ display: table; width: 700px; border-spacing: 10px; border-collapse: separate;}
+#row{display: table-row;}
+.article1{display: table-cell; width: 350px;}
+.article2{display: table-cell; width: 350px;}
+.img-label{height: 40px; width: 600px; background: #332f2f; text-align: center; padding-top: 20px;}
+article button{ padding: 8px;}
+.article-button{text-align: center;}
+
+/* Section 2 Style Area */
+.section2 ul li {display: inline-block; margin-right: 25px;}
+
+/* Footer Style Area */
+footer {height: 50px;background: #332f2f; border-top: 4px red solid; padding-top: 20px; color: #fff; }
+.copy-right{text-align: right;}
+
+@media only screen and (min-width:200px) and (max-width: 768px) {
+    .slicknav_menu{display: inline-block;}
+
+
+}
