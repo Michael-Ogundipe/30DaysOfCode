@@ -47,6 +47,7 @@ footer {height: 50px;background: #332f2f; border-top: 4px red solid; padding-top
   #row {
     flex-flow: column nowrap;
   }
+  .img-label{height: 40px; width: 300px; background: #332f2f; text-align: center; padding-top: 20px;}
 
  
 }
