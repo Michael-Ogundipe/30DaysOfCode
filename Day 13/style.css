@@ -1,0 +1,21 @@
+*{box-sizing: border-box; margin: 0; padding: 0;}
+body{background: hsl(180, 52%, 96%);}
+img{max-width: 1440px;  }
+
+
+
+/* Header Area Style */
+#header{height: 70px; background: hsl(180, 29%, 50%); background-image: url(img/bg-header-desktop.svg); background-repeat: repeat; }
+
+/* Article Area Style */
+#article{ width: 80%; margin: 0 auto; padding-top: 70px;}
+.container1{ background: #fff; border: 2px rgb(241, 233, 233) solid; border-left: 5px  hsl(180, 29%, 50%) solid; border-radius: 5px; height: 125px; margin-bottom: 20px;}
+.container1 img {float: left; margin: 20px;}
+.button-class{ padding: 4px; margin-right: 6px; background: hsl(180, 29%, 50%); color: hsl(180, 14%, 20%);}
+.input-class{text-align: right; margin-right:30px; margin-top: 30px;}
+
+/* Footer Area */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
