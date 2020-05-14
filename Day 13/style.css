@@ -26,7 +26,7 @@ img{max-width: 1440px;  }
 @media only screen and (min-width:200px) and (max-width: 768px) {
 .container1{height: 180px;}
 .container1 img {float: left; margin: 10px; width: 30px;}
-.input-class{text-align: right; margin-right:30; padding-bottom: 20px;}
+.input-class{text-align: right; margin-right:30; margin-bottom: 20px;}
 .task{font-size: 20px;  padding-bottom: 5px;}
 .position{ padding-bottom: 5px;}
 .time{padding-left: 50px; padding-bottom: 5px;}
