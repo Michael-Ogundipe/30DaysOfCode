@@ -24,7 +24,7 @@ img{max-width: 1440px;  }
 
 /* Responsiveness Style */
 @media only screen and (min-width:200px) and (max-width: 768px) {
-.container1{height: 160px;}
+.container1{height: 180px;}
 .container1 img {float: left; margin: 10px; width: 30px;}
 .input-class{text-align: right; margin-right:30px;}
 .task{font-size: 20px;  padding-bottom: 5px;}
