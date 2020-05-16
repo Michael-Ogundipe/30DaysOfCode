@@ -1,3 +1,3 @@
 # 30DaysOfCode
 
-https://syntax007.github.io/30DaysOfCode/Day%2014/index.html
+https://syntax007.github.io/30DaysOfCode/Day%2015/index.html
