@@ -1,8 +1,6 @@
-var color = [ "#5f27cd", "#222f2e","#222f3e","#f368e0","#0abde3","#10ac84"];
+// A Program which tells the number of days in a month.
 
-var i = 0;
-
-document.querySelector("button").addEventListener("click", 
-    function(){ 
-         i = i < color.length ? ++i : 0; 
-document.querySelector("body").style.background = color[i] } )
+// Get the Modal 
+var modal = document.getElementById("modalPop");
+// Get the button that opens the modal
+document.getElementById("popBtn").addEventListener("click",function(){modal.style.display="block";},true);
