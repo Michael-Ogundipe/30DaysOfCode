@@ -1,3 +1,4 @@
+/* Common Style Area */
 *{box-sizing: border-box; margin: 0; padding: 0;}
 body{font-size: 16px; font-weight: 400, 700;}
 ul li{display: inline-block; list-style: none;}
