@@ -4,6 +4,8 @@ ul li{display: inline-block; list-style: none;}
 a{text-decoration: none;}
 p{color: hsl(233, 8%, 62%);}
 h1,h2 {color: hsl(233, 26%, 24%);}
+
+
 /* Header Area Style */
 #headerr{width: 90%; margin: 0px auto; padding: 15px 0px; }
 .header{display: grid; grid-template-columns: 1fr 1fr 1fr; 
@@ -12,7 +14,7 @@ h1,h2 {color: hsl(233, 26%, 24%);}
 .request-invite{text-align: center; border: 1px hsl(136, 65%, 51%) solid; border-radius: 14px; width: 140px; padding: 5px; 
     background:#2cbbc5; }
 
-/* Section1 Style Area */
+/* Section 1 Style Area */
 #section1{width: 90%; margin: 0px auto; padding: 15px 0px; background-image: url("img/bg-intro-desktop.svg"); 
     background-position: bottom left; }
     
@@ -31,7 +33,7 @@ article{background:  hsl(220, 16%, 96%); padding: 50px 0px;}
 .contain h3{padding: 15px 0px;}
 .contain img { max-width: 150px; height: auto;}
 
-/* Section2 Style Area */
+/* Section 2 Style Area */
 #section2{background: hsl(0, 0%, 98%); padding: 40px 0px;}
 .section2{width: 90%; margin: 0px auto;  }
 .last-article{padding: 20px 0px;}
@@ -45,7 +47,6 @@ footer{background: hsl(233, 26%, 24%); padding: 20px 0px;}
 footer ul li{display: block;}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(233, 8%, 62%); }
-
 
 
 
