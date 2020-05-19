@@ -1,0 +1,59 @@
+*{box-sizing: border-box; margin: 0; padding: 0;}
+body{font-size: 16px; font-weight: 400, 700;}
+ul li{display: inline-block; list-style: none;}
+a{text-decoration: none;}
+p{color: hsl(233, 8%, 62%);}
+h1,h2 {color: hsl(233, 26%, 24%);}
+/* Header Area Style */
+#headerr{width: 90%; margin: 0px auto; padding: 15px 0px; }
+.header{display: grid; grid-template-columns: 1fr 1fr 1fr; 
+     color: hsl(233, 8%, 62%) ; background: hsl(0, 0%, 100%);}
+.header-class ul li{padding-right: 20px;}
+.request-invite{text-align: center; border: 1px hsl(136, 65%, 51%) solid; border-radius: 14px; width: 140px; padding: 5px; 
+    background:#2cbbc5; }
+
+/* Section1 Style Area */
+#section1{width: 90%; margin: 0px auto; padding: 15px 0px; background-image: url("img/bg-intro-desktop.svg"); 
+    background-position: bottom left; }
+    
+.wrapper{display: grid; grid-template-columns: 1fr 1fr; }
+.wrapper-text{margin-top: 100px;}
+.wrapper-text h1 {color: hsl(192, 70%, 51%);}
+.wrapper-img img {max-width: 80%; height: auto;}
+
+
+/* Article Style Area */
+article{background:  hsl(220, 16%, 96%); padding: 50px 0px;}
+.article{width: 90%; margin: 0px auto;}
+.why-choose{ width: 45%;}
+.why-choose p {padding: 20px 0px;}
+.container{display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; grid-gap: 10px; }
+.contain h3{padding: 15px 0px;}
+.contain img { max-width: 150px; height: auto;}
+
+/* Section2 Style Area */
+#section2{background: hsl(0, 0%, 98%); padding: 40px 0px;}
+.section2{width: 90%; margin: 0px auto;  }
+.last-article{padding: 20px 0px;}
+
+/* Footer Style Area */
+footer{background: hsl(233, 26%, 24%); padding: 20px 0px;}
+.contain-img { background: #fff;}
+.img-icons li {display: inline-block; padding: 20px 0px;}
+.about-list li{padding: 7px 0px;}
+.footer1{width: 90%; margin: 0px auto;}
+footer ul li{display: block;}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(233, 8%, 62%); }
+
+
+
+
+/* Responsiveness Style */
+@media only screen and (min-width:200px) and (max-width: 768px) {
+    .header, .wrapper, .container {display: block; text-align: center;} 
+    .header-class ul {display: none;}
+    .header-class .request-invite {display: none;}
+    .why-choose{ width: 100%; text-align: center;}
+    .about-list li .request-invite{display: none;}
+}
