@@ -53,5 +53,7 @@ footer{ background: hsl(233, 12%, 13%); color:  hsl(227, 12%, 61%); padding: 30p
 
 /* Responsiveness Style */
 @media only screen and (min-width:200px) and (max-width: 768px) {
-    
+    .sectione, .container , .wrapper{display: block;}
+    .product-list{display: none;}
+    .container .get-started{display: none;}
 }
