@@ -1,0 +1,57 @@
+*{box-sizing: border-box; margin: 0; padding: 0;}
+body{font-size: 16px; font-weight: 400, 700;}
+ul li{display: inline-block; list-style: none;}
+a{text-decoration: none; color: hsl(228, 39%, 23%);}
+h1,h3,h4{color: hsl(228, 39%, 23%);}
+p{color: hsl(227, 12%, 61%); padding: 20px 0px;}
+
+
+/* Header Style Area */
+header{margin-bottom: 60px;  background-image: url("img/bg-tablet-pattern.svg"); background-repeat: no-repeat; background-position: top right;}
+.main-header{width: 90%; margin: 0px auto; }
+.container{ display: grid; grid-template-columns: 1fr 2fr 1fr; padding: 50px 0px;}
+.get-started{ border: 1px solid; border-radius: 15px; text-align: center; background: hsl(12, 88%, 59%); color: hsl(0, 0%, 98%); 
+    padding: 7px; width: 110px;}
+.product-list ul li {padding-right: 15px;}
+.sectione{ display: grid; grid-template-columns: 1fr 1fr; padding: 30px 0px;}
+.sectione .bring-everyone {width: 60%;}
+.illustration-img img{ max-width: 400px; height: auto;}
+
+/* Section Style Area */
+
+#section2{width: 90%; margin: 0px auto;}
+.section2{}
+.num-holder{ border: 1px solid; border-radius: 12px; text-align: center; background: hsl(12, 88%, 59%); color: hsl(0, 0%, 98%); 
+    padding: 3px; width:40px ; float: left; margin-right: 40px;}
+
+/* Article Style Area */
+.article{width: 90%; margin: 0px auto; }
+.slider-item{text-align: center;}
+.center{ display: block; margin-left: auto; margin-right: auto; width: 20%;}
+.what-said{text-align: center; padding: 15px 0px;}
+/* 2nd Section Style Area */
+#section3{background: hsl(12, 88%, 59%); padding: 15px 0px;}
+.section3{width: 90%; margin: 0px auto; }
+
+.get-startedW{ border: 1px solid; border-radius: 15px; text-align: center; background: hsl(0, 0%, 98%); color: hsl(12, 88%, 59%) ;
+    padding: 7px; width:100px ; }
+
+/* Footer Style Area */
+footer{ background: hsl(233, 12%, 13%); color:  hsl(227, 12%, 61%); padding: 30px 0px;}
+#footer{width: 90%; margin: 0px auto;}
+.wrapper{display: grid; grid-template-columns: 1fr 1fr 1fr 1fr;}
+.footer-list li{display: block; padding-bottom: 15px;}
+.footer-social{padding-top: 40px ;}
+.get-startedw{ border: 1px #fff solid; border-radius: 15px; text-align: center; background: hsl(0, 0%, 98%); color: hsl(12, 88%, 59%) ;
+    padding: 5px; width:150px ; }
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+
+
+/* Responsiveness Style */
+@media only screen and (min-width:200px) and (max-width: 768px) {
+    
+}
