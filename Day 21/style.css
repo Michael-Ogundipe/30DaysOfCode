@@ -1,0 +1,7 @@
+body{background: #0d143a; color: #d4c9bb;}
+
+#quiz ol {font-size: x-large;}
+.question{font-size: 25px; padding-top: 15px;}
+.option{font-size: 20px;}
+
+#submit{ margin: 20px; padding: 7px; font-size: 17px; background: #d4c9bb; color: #0d143a;}
