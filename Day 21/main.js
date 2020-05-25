@@ -47,7 +47,7 @@ function myCheck(){
 	function mycheck7(){
 		if (document.getElementById("answer7").checked == true){
 			score++;
-			alert("You Scored " + score + "/7")
+			alert("You Scored " + score + "/7  Please Refresh Page")
 		}
 	}
 	mycheck7();
