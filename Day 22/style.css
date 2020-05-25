@@ -1,0 +1,12 @@
+body{background: #05091a;}
+
+.time{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #eeeae6;
+    font-size: 75px;
+    border: 1px solid #858791;
+    padding: 0px 5px;
+} 
